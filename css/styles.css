@@ -1,0 +1,54 @@
+body {
+    background-color: tan;
+}
+.container{
+    width: 700px;
+    height: 600px;
+    background-color: black;
+    margin-left: 600px;
+    margin-top: 200px;
+    border-top: 7px solid lightgreen;
+    border-radius: 15px;
+}
+#liedje{
+    color: grey;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.images img{
+    margin-top: 25px;
+    width: 125px;
+    margin-right: 5px;
+}
+.buttons{
+
+}
+.buttons img{
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.7)
+}
+#pre{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 5px;
+    transform: rotate(180deg);
+}
+#next{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 625px;
+}
+#marae{
+    margin-left: 10px;
+}
+audio{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.selected{
+    border: 5px solid lightgreen;
+}
+#nummer1,#nummer2,#nummer3,#nummer4,#nummer5{
+    color: grey;
+}
