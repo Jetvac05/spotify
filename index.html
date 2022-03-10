@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video player</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="liedje">LOSIN IT</h2>
+        <div class="images">
+            <img src="assets/img/marae.png" id="marae">
+            <img src="assets/img/power.png" id="power">
+            <img src="assets/img/losin-it-logo.png" id="losin">
+            <img src="assets/img/sterrenstof.png" id="ster">
+            <img src="assets/img/starlight.png" id="star">
+        </div>
+        <div class="buttons">
+         <img onclick="vorige();" src="assets/icons/forward-right-arrow-button.png" alt="vorige" id="pre">
+         <img onclick="volgende();" src="assets/icons/forward-right-arrow-button.png" id="next">
+        </div>
+        <audio controls id="geluid" autoplay> 
+            <source src="assets/video-audio/losin.mp3" id="bron">
+        </audio>
+
+        <p id="nummer1"> 01.    Losing it            4.08</p>
+        <p id="nummer2">02. Sterrenstof 3.40 </p>
+        <p id="nummer3">03. starlight    3.32 </p>
+        <p id="nummer4">04.  Marea (we've lost dancing) 4.45</p>
+        <p id="nummer5">05. Power (Feat. interupt)  3.31</p>
+
+    </div>
+    <script src="assets/js/javaScript.js"></script>
+</body>
+</html>
